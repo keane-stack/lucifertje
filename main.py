@@ -1,3 +1,3 @@
 print('Naam invullen:')
 x = input()
-print('Hallo, ' + x)
+print('Gegroet ' + x + ', Welkom bij ons luciferspel!')
