@@ -1,1 +1,3 @@
-print('hoi')
+print('Naam invullen:')
+x = input()
+print('Hallo, ' + x)
