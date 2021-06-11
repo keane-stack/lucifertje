@@ -10,7 +10,7 @@ def introgame():
 def game():
   sticks = 21
   while True:
-    print ('Aantal lucifers', sticks)
+    print ('\nAantal lucifers', sticks)
     sticks_taken = int(input('Pak je stokjes(1-3):'))
     if sticks == 1:
         print('Je hebt het laatste lucifertje gepakt, losertje')
