@@ -1,8 +1,5 @@
-import random
 
-num1 = random.randint(20, 25)
-sticks = (num1)
-
+sticks = 21
 print('Naam invullen:')
 x = input()
 print('Gegroet ' + x + ', Welkom bij ons luciferspel!')
@@ -18,7 +15,10 @@ while True:
     if sticks_taken >= 4 or sticks_taken <= 0:
         print ('Errorgeval, kies 1, 2 of 3 luficers')
         continue
+
+        #dit laat de computer altijd winnen
     print ("Computer took: " , (4 - sticks_taken))
     sticks -= 4
 if sticks == 0:
   print('Je hebt gewonnen van de computer, whiehoo')
+
